@@ -1,0 +1,145 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "title": "Lemon",
+      "price": 5,
+      "desc": "A refreshing blend of lemon and mint for a cool and uplifting taste.",
+      "score": 5,
+      "off": 0,
+      "type": "cold",
+      "img": "/images/menu-1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Chamomile Tea",
+      "price": 4,
+      "desc": "A calming herbal tea to help you relax and unwind.",
+      "score": 4.4,
+      "off": 0,
+      "type": "hot",
+      "img": "/images/menu-2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Berry Blend",
+      "price": 6,
+      "desc": "A fruity herbal infusion with a naturally sweet and vibrant flavor.",
+      "score": 4.9,
+      "off": 0,
+      "type": "cold",
+      "img": "/images/menu-3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Peppermint Tea",
+      "price": 3,
+      "desc": "A fresh mint infusion that leaves you feeling refreshed.",
+      "score": 5,
+      "off": 0,
+      "type": "hot",
+      "img": "/images/menu-4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Ginger Tea",
+      "price": 4,
+      "desc": "A spicy and warming tea made with natural ginger.",
+      "score": 3.1,
+      "off": 50,
+      "type": "hot",
+      "img": "/images/menu-5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Apple Cinnamon",
+      "price": 12,
+      "desc": "A warm combination of apple and cinnamon with a comforting aroma.",
+      "score": 4.9,
+      "off": 0,
+      "type": "cold",
+      "img": "/images/menu-6.jpg"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Natural Ingredients",
+      "desc": "Pure herbs and flowers carefully selected for every blend.",
+      "img": "/images/service-1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Rich Flavor",
+      "desc": "Enjoy authentic and refreshing tastes in every cup.",
+      "img": "/images/service-2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Relaxing Moments",
+      "desc": "Our teas are crafted to bring calm and comfort to your day.",
+      "img": "/images/service-3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Healthy Lifestyle",
+      "desc": "A natural way to support balance and wellness.",
+      "img": "/images/service-4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Online Table Reservation",
+      "desc": "Reserve Your table quickly and easily online.",
+      "img": "/images/service-5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Fastest Door Delivery",
+      "desc": "Enjoy quick and reliable delivery straight to your doorstep.",
+      "img": "/images/service-6.jpg"
+    }
+  ],
+  "newsletters": [],
+  "comments": [
+    {
+      "id": "1",
+      "username": "Mariya",
+      "productID": 1,
+      "body": "The chamomile tea is incredibly soothing. It's now part of my evening routine.",
+      "profile": "/images/testimonial-1.jpg"
+    },
+    {
+      "id": "2",
+      "username": "Tayler",
+      "productID": 2,
+      "body": "The lemon & mint blend is fresh, light, and full of natural flavor.",
+      "profile": "/images/testimonial-2.jpg"
+    },
+    {
+      "id": "3",
+      "username": "Tina",
+      "productID": 1,
+      "body": "Excellent quality and beautiful packaging. Every cup feels special.",
+      "profile": "/images/testimonial-3.jpg"
+    },
+    {
+      "id": "4",
+      "username": "Sami",
+      "productID": 2,
+      "body": "I've tried several blends, and each one has been fresh, aromatic, and delicious.",
+      "profile": "/images/testimonial-4.jpg"
+    },
+    {
+      "id": "5",
+      "username": "Kilian",
+      "productID": 4,
+      "body": "Every blend is fresh, aromatic, and full of natural flavor. My favorite is the Apple Cinnamon tea—it's perfect for relaxing after a long day.",
+      "profile": "/images/testimonial-4.jpg"
+    }
+  ],
+  "reserve": [
+  
+  ],
+  "messages": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
