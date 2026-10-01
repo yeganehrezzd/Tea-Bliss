@@ -21,7 +21,7 @@ function Menu({ data }) {
             <h1 class="mb-5">Herbal Teas</h1>
 
             {data
-              .filter((item) => item.type === "hot")
+              .filter((item) => item.type === "Herbal")
               .slice(0, 3)
               .map((item) => (
                 <Card {...item} />
@@ -31,7 +31,7 @@ function Menu({ data }) {
           <div class="col-lg-6">
             <h1 class="mb-5">Fruit Infusions </h1>
             {data
-              .filter((item) => item.type === "cold")
+              .filter((item) => item.type === "Fruit")
               .slice(0, 3)
               .map((item) => (
                 <Card {...item} />

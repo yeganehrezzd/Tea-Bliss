@@ -7,7 +7,7 @@
       "desc": "A refreshing blend of lemon and mint for a cool and uplifting taste.",
       "score": 5,
       "off": 0,
-      "type": "cold",
+      "type": "Fruit",
       "img": "/images/menu-1.jpg"
     },
     {
@@ -17,7 +17,7 @@
       "desc": "A calming herbal tea to help you relax and unwind.",
       "score": 4.4,
       "off": 0,
-      "type": "hot",
+      "type": "Herbal",
       "img": "/images/menu-2.jpg"
     },
     {
@@ -27,7 +27,7 @@
       "desc": "A fruity herbal infusion with a naturally sweet and vibrant flavor.",
       "score": 4.9,
       "off": 0,
-      "type": "cold",
+      "type": "Fruit",
       "img": "/images/menu-3.jpg"
     },
     {
@@ -37,7 +37,7 @@
       "desc": "A fresh mint infusion that leaves you feeling refreshed.",
       "score": 5,
       "off": 0,
-      "type": "hot",
+      "type": "Herbal",
       "img": "/images/menu-4.jpg"
     },
     {
@@ -47,7 +47,7 @@
       "desc": "A spicy and warming tea made with natural ginger.",
       "score": 3.1,
       "off": 50,
-      "type": "hot",
+      "type": "Herbal",
       "img": "/images/menu-5.jpg"
     },
     {
@@ -57,7 +57,7 @@
       "desc": "A warm combination of apple and cinnamon with a comforting aroma.",
       "score": 4.9,
       "off": 0,
-      "type": "cold",
+      "type": "Fruit",
       "img": "/images/menu-6.jpg"
     }
   ],
@@ -137,9 +137,7 @@
       "profile": "/images/testimonial-4.jpg"
     }
   ],
-  "reserve": [
-  
-  ],
+  "reserve": [],
   "messages": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

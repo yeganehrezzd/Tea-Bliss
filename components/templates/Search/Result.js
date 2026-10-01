@@ -2,10 +2,10 @@ import React from "react";
 import Card from "../../modules/Card/Card";
 function Result({ searchResult }) {
   const herbalTeas = searchResult
-    .filter((item) => item.type === "hot")
+    .filter((item) => item.type === "Herbal")
     .slice(0, 3);
   const fruitInfusions = searchResult
-    .filter((item) => item.type === "cold")
+    .filter((item) => item.type === "Fruit")
     .slice(0, 3);
   if (!searchResult || searchResult.length === 0) {
     return (
